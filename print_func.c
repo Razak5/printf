@@ -93,3 +93,14 @@ int op_d(va_list op_l)
 
 	return (i);
 }
+
+
+/**
+* op_bin - convert to binary
+* @d: decimal umber to change to binary
+* Return: number of chars printed
+*/
+
+int op_bin(va_list d)
+{
+
